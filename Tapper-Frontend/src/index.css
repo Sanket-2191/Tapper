@@ -45,6 +45,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin:5px;
 }
 button:hover {
   border-color: #646cff;
@@ -65,4 +66,18 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+input{
+  border: #535bf2 solid 1px;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 30px;
+  width: 220px;
+}
+
+input:focus,input:focus-visible{
+  /* border: #888ef8 solid 1px; */
+  outline: solid #a0a4f3 1px;
 }
